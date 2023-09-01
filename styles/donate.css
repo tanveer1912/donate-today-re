@@ -47,3 +47,138 @@ section {
 .donate-today {
     text-align: center;
 }
+
+.money-section {
+    display: flex;
+    justify-content: center;
+    gap: 65px;
+    margin-top: 50px;
+}
+
+.money {
+    background-color: rgb(236, 236, 236);
+    margin-bottom: 50px;
+    padding: 30px 18px;
+    border-radius: 5px;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.input-text {
+    border-style: none;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+}
+
+.hr {
+    width: 860px;
+    margin-bottom: 30px;
+}
+
+.donate-plan {
+    text-align: center;
+}
+
+.plan {
+    display: flex;
+    gap: 30px;
+    margin: 40px 80px;
+}
+
+.food {
+    background-color: rgb(231, 231, 231);
+    border-radius: 5px;
+    padding: 70px 20px;
+    text-align: start;
+}
+
+.shelter {
+    background-color: rgb(228, 191, 185);
+    border-radius: 5px;
+    padding: 70px 20px;
+    text-align: start;
+}
+
+.education {
+    background-color: rgb(243, 243, 212);
+    border-radius: 5px;
+    padding: 70px 20px;
+    text-align: start;
+}
+
+.contribution-container {
+    margin: 100px 130px;
+}
+
+.contribution {
+    display: flex;
+    align-items: center;
+
+}
+
+.contribute {
+    padding: 0 60px;
+}
+
+.section-header {
+    font-weight: 900;
+    font-size: 40px;
+
+}
+
+.img {
+    width: 500px;
+    height: 400px;
+    border-radius: 5px;
+
+
+}
+
+.updates {
+    text-align: center;
+
+
+}
+
+.subscribe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-left: 320px;
+    background-color: rgb(248, 229, 206);
+    height: 15px;
+    width: 50%;
+    padding: 80px 0;
+    border-radius: 6px;
+}
+
+div input {
+    border-style: none;
+    padding: 13px 50px 13px 10px;
+    background-color: silver;
+    border-radius: 5px 0 0 5px;
+
+}
+
+div button {
+    border-style: none;
+    padding: 13px 20px 13px 20px;
+    margin-left: 0;
+    border-radius: 0 5px 5px 0;
+    background-color: tomato;
+    color: white;
+}
+
+.footer {
+    text-align: center;
+    background-color: black;
+    color: tomato;
+    height: 150px;
+    padding-top: 30px;
+}
+
+footer small {
+    color: rgb(158, 150, 150);
+}
