@@ -219,6 +219,37 @@ footer small {
     .hr {
         width: 200px;
     }
+
+    .plan {
+        flex-direction: column;
+        margin: 40px 20px;
+    }
+
+    .donate-plan-text {
+        margin: 0 20px;
+    }
+
+    .contribution-container {
+        margin: 100px 0;
+    }
+
+    .contribution {
+        flex-direction: column-reverse;
+    }
+
+    .img {
+        width: 350px;
+        height: 300px;
+    }
+
+    .contribute button {
+        margin-bottom: 20px;
+    }
+
+    .contribution .img {
+        margin-left: 0 !important;
+
+    }
 }
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
@@ -233,6 +264,24 @@ footer small {
 
     .hr {
         width: 200px;
+    }
+
+    .contribution {
+        flex-direction: column-reverse;
+    }
+
+    .contribution-container {
+        margin: 100px 0;
+    }
+
+    .img {
+        width: 700px;
+        margin-left: 0 !important;
+
+    }
+
+    .contribute button {
+        margin-bottom: 20px;
     }
 }
 
