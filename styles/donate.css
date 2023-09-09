@@ -259,10 +259,15 @@ footer small {
 
     .subscribe input {
         margin-bottom: 20px;
+        border-radius: 5px 5px 5px 5px;
     }
 
     .footer {
         margin-top: 0;
+    }
+
+    .subscribe button {
+        border-radius: 5px 5px 5px 5px;
     }
 }
 
