@@ -181,6 +181,7 @@ div button {
     color: tomato;
     height: 150px;
     padding-top: 30px;
+    margin-top: 20px;
 }
 
 footer small {
@@ -250,6 +251,19 @@ footer small {
         margin-left: 0 !important;
 
     }
+
+    .subscribe {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .subscribe input {
+        margin-bottom: 20px;
+    }
+
+    .footer {
+        margin-top: 0;
+    }
 }
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
@@ -283,8 +297,12 @@ footer small {
     .contribute button {
         margin-bottom: 20px;
     }
-}
 
-.hide {
-    display: none;
+    .subscribe {
+        width: 100%;
+    }
+
+    .footer {
+        margin-top: 0;
+    }
 }
